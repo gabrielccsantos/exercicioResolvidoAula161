@@ -48,7 +48,7 @@ public class Main {
             read.nextLine();
         }
 
-        System.out.print("PAYMENTS: ");
+        System.out.println("PAYMENTS: ");
 
         for(Employee employees : empList){
             System.out.println(employees);
