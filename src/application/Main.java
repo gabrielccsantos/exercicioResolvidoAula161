@@ -45,6 +45,7 @@ public class Main {
 
                 empList.add(employee);
             }
+            read.nextLine();
         }
 
         System.out.print("PAYMENTS: ");
