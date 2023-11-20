@@ -32,7 +32,7 @@ public class Main {
             System.out.print("Value per Hour: ");
             double valuePerHour = read.nextDouble();
 
-            if(letter == 's'){
+            if(letter == 'y'){
                 System.out.print("Addicional Charge: ");
                 double addCharge = read.nextDouble();
 
