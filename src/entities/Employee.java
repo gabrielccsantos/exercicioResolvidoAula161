@@ -8,8 +8,6 @@ public class Employee {
     protected Integer hours;
     protected Double valuePerHour;
 
-    List<Employee> empList = new ArrayList<>();
-
     public Employee(String name, Integer hours, Double valuePerHour) {
         this.name = name;
         this.hours = hours;
@@ -38,14 +36,6 @@ public class Employee {
 
     public void setValuePerHour(Double valuePerHour) {
         this.valuePerHour = valuePerHour;
-    }
-
-    public void addEmployee(Employee emp){
-        empList.add(emp);
-    }
-
-    public void removeEmployee(Employee emp){
-        empList.remove(emp);
     }
 
     public Double payment(){
